@@ -1,0 +1,24 @@
+Protein sequence (0):
+>NP_001018070.1 AIFM3 [organism=Homo sapiens] [GeneID=150209] [isoform=2]: 
+Contains: 1 deleterious (score > 8.1) snps at index: 72
+Contains: 3 possible deleterious (score > 6.75) snps at index: 67 333 614
+Percentage of amino acids marked as (possible) deleterious: 4 of 598 amino acids (0.669%)
+
+Protein sequence (1):
+>NP_001139760.1 AIFM3 [organism=Homo sapiens] [GeneID=150209] [isoform=3]: 
+Contains: 5 deleterious (score > 8.1) snps at index: 10 11 12 15 72
+Contains: 3 possible deleterious (score > 6.75) snps at index: 67 333 614
+Percentage of amino acids marked as (possible) deleterious: 8 of 604 amino acids (1.325%)
+
+Protein sequence (2):
+>NP_001373743.1 AIFM3 [organism=Homo sapiens] [GeneID=150209] [isoform=1]: 
+Contains: 1 deleterious (score > 8.1) snps at index: 72
+Contains: 3 possible deleterious (score > 6.75) snps at index: 67 333 614
+Percentage of amino acids marked as (possible) deleterious: 4 of 605 amino acids (0.661%)
+
+Protein sequence (3):
+>NP_653305.1 AIFM3 [organism=Homo sapiens] [GeneID=150209] [isoform=1]: 
+Contains: 1 deleterious (score > 8.1) snps at index: 72
+Contains: 3 possible deleterious (score > 6.75) snps at index: 67 333 614
+Percentage of amino acids marked as (possible) deleterious: 4 of 605 amino acids (0.661%)
+
