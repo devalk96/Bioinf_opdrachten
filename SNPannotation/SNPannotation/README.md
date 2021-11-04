@@ -1,4 +1,4 @@
-#SNPAnnotation
+# SNPAnnotation
 
 ## Goal
 The goal of this project is to create a SNP analyser.
