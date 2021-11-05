@@ -1,0 +1,165 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  alligned.hmm
+# target sequence database:        human.1.protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       alligned  [M=603]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.8e-07   28.9   0.0    2.5e-07   28.5   0.0    1.1  1  NP_001124537.1  Rieske domain-containing protein isoform 1 [H
+    1.8e-07   28.9   0.0    2.5e-07   28.5   0.0    1.1  1  NP_001124538.1  Rieske domain-containing protein isoform 1 [H
+    0.00075   17.0   0.1      0.001   16.5   0.1    1.1  1  NP_787035.1     spermine oxidase isoform 3 [Homo sapiens]
+     0.0016   15.9   0.1     0.0049   14.3   0.1    1.7  2  NP_001257620.1  spermine oxidase isoform 6 [Homo sapiens]
+     0.0024   15.3   0.1      0.004   14.6   0.1    1.2  1  NP_787034.1     spermine oxidase isoform 2 [Homo sapiens]
+     0.0026   15.2   0.1     0.0043   14.5   0.1    1.2  1  NP_787036.1     spermine oxidase isoform 4 [Homo sapiens]
+     0.0033   14.9   0.3       0.41    7.9   0.0    2.1  2  NP_116098.2     pyridine nucleotide-disulfide oxidoreductase 
+  ------ inclusion threshold ------
+      0.011   13.1   0.0      0.014   12.8   0.0    1.1  1  NP_001248315.1  ubiquitin-conjugating enzyme E2 variant 3 iso
+      0.028   11.8   0.0       0.04   11.3   0.0    1.2  1  NP_001248312.1  ubiquitin-conjugating enzyme E2 variant 3 iso
+
+
+Domain annotation for each sequence (and alignments):
+>> NP_001124537.1  Rieske domain-containing protein isoform 1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   0.0   2.6e-10   2.5e-07      50     132 ..      58     145 ..      40     147 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 2.6e-10
+        alligned  50 tkkplakkqdv.eakvvhvkdlengqkrevelgegkvLLvkdngelqalghkCshYGapLvkGvls..kGr..vrCPWhGaCFniatG 132
+                      ++  ++k+++  + v ++ d+++ ++  + + + +v++  ++ge++a+  +C h G pL  G +   +Gr  ++CPWh      atG
+  NP_001124537.1  58 GSAQDPEKREYsSVCVGREDDIKKSERMTAVVHDREVVIFYHKGEYHAMDIRCYHSGGPLHLGDIEdfDGRpcIVCPWHKYKITLATG 145
+                     45556678899788888999***9999999999*******************************9988898889*****988888887 PP
+
+>> NP_001124538.1  Rieske domain-containing protein isoform 1 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.5   0.0   2.6e-10   2.5e-07      50     132 ..      58     145 ..      40     147 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 28.5 bits;  conditional E-value: 2.6e-10
+        alligned  50 tkkplakkqdv.eakvvhvkdlengqkrevelgegkvLLvkdngelqalghkCshYGapLvkGvls..kGr..vrCPWhGaCFniatG 132
+                      ++  ++k+++  + v ++ d+++ ++  + + + +v++  ++ge++a+  +C h G pL  G +   +Gr  ++CPWh      atG
+  NP_001124538.1  58 GSAQDPEKREYsSVCVGREDDIKKSERMTAVVHDREVVIFYHKGEYHAMDIRCYHSGGPLHLGDIEdfDGRpcIVCPWHKYKITLATG 145
+                     45556678899788888999***9999999999*******************************9988898889*****988888887 PP
+
+>> NP_787035.1  spermine oxidase isoform 3 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.1   1.1e-06     0.001     195     226 ..      23      54 ..      15      61 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 1.1e-06
+     alligned 195 estevvivGgGaaalvaaetlreegfsgrivi 226
+                   + +vv++G+G a+l aa+ l e+gf++  v+
+  NP_787035.1  23 GQPRVVVIGAGLAGLAAAKALLEQGFTDVTVL 54 
+                  5679***********************97665 PP
+
+>> NP_001257620.1  spermine oxidase isoform 6 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.1   5.1e-06    0.0049     195     226 ..      23      54 ..      15      60 .. 0.87
+   2 ?   -1.9   0.0      0.41   3.9e+02     414     441 ..     315     346 ..     307     369 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 14.3 bits;  conditional E-value: 5.1e-06
+        alligned 195 estevvivGgGaaalvaaetlreegfsgrivi 226
+                      + +vv++G+G a+l aa+ l e+gf++  v+
+  NP_001257620.1  23 GQPRVVVIGAGLAGLAAAKALLEQGFTDVTVL 54 
+                     5679***********************97665 PP
+
+  == domain 2  score: -1.9 bits;  conditional E-value: 0.41
+        alligned 414 vvLkdgkvleADvvvlgi..Ga..kpateflk 441
+                     v+ +d + ++AD v++ +  G+  + +t f++
+  NP_001257620.1 315 VECEDCELIPADHVIVTVslGVlkRQYTSFFR 346
+                     677999******99986611321144555555 PP
+
+>> NP_787034.1  spermine oxidase isoform 2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.1   4.3e-06     0.004     195     226 ..      23      54 ..      15      60 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 4.3e-06
+     alligned 195 estevvivGgGaaalvaaetlreegfsgrivi 226
+                   + +vv++G+G a+l aa+ l e+gf++  v+
+  NP_787034.1  23 GQPRVVVIGAGLAGLAAAKALLEQGFTDVTVL 54 
+                  5679***********************97665 PP
+
+>> NP_787036.1  spermine oxidase isoform 4 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.1   4.6e-06    0.0043     195     226 ..      23      54 ..      15      60 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 4.6e-06
+     alligned 195 estevvivGgGaaalvaaetlreegfsgrivi 226
+                   + +vv++G+G a+l aa+ l e+gf++  v+
+  NP_787036.1  23 GQPRVVVIGAGLAGLAAAKALLEQGFTDVTVL 54 
+                  5679***********************97665 PP
+
+>> NP_116098.2  pyridine nucleotide-disulfide oxidoreductase domain-containing protein 2 [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.0   0.1    0.0034       3.2     334     366 ..      33      65 ..      22      79 .. 0.69
+   2 !    7.9   0.0   0.00044      0.41     388     441 ..     299     350 ..     288     380 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 5.0 bits;  conditional E-value: 0.0034
+     alligned 334 kgkkiVivGasfiGmEvAayltekahsvsvvel 366
+                   +  +V++Ga++ G+  Aayl     +++v e+
+  NP_116098.2  33 PEYDAVVIGAGHNGLVAAAYLQRLGVNTAVFER 65 
+                  455677777777777777777777777776665 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.00044
+     alligned 388 eqngvkFymeaevseleaqdegkvkevvLkdgkvleADvvvlgiGakpateflk 441
+                    +g   + e  v +++ ++eg v+ vvL+dg+ ++  +v+    ++p++ flk
+  NP_116098.2 299 TTHGASIFTEKTVAKVQVNSEGCVQGVVLEDGTEVRSKMVLSN--TSPQITFLK 350
+                  567777888999*************************998754..566666666 PP
+
+>> NP_001248315.1  ubiquitin-conjugating enzyme E2 variant 3 isoform g [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   1.5e-05     0.014     183     228 ..      70     114 ..      35     119 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 1.5e-05
+        alligned 183 makciaesafesestevvivGgGaaalvaaetlreegfsgrivivt 228
+                      +k+ a++  +++ +++ +vGgG+ ++ +   +  +g+++r+v++ 
+  NP_001248315.1  70 NSKSWANH-ENKTVNKITVVGGGELGIACTLAISAKGIADRLVLLD 114
+                     45555554.56677899**************************975 PP
+
+>> NP_001248312.1  ubiquitin-conjugating enzyme E2 variant 3 isoform d [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   4.3e-05      0.04     184     228 ..     149     192 ..     116     197 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 4.3e-05
+        alligned 184 akciaesafesestevvivGgGaaalvaaetlreegfsgrivivt 228
+                     +k+ a++  +++ +++ +vGgG+ ++ +   +  +g+++r+v++ 
+  NP_001248312.1 149 SKSWANH-ENKTVNKITVVGGGELGIACTLAISAKGIADRLVLLD 192
+                     3444443.566778999*************************975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (603 nodes)
+Target sequences:                       8509  (3698650 residues searched)
+Passed MSV filter:                       238  (0.0279704); expected 170.2 (0.02)
+Passed bias filter:                      168  (0.0197438); expected 170.2 (0.02)
+Passed Vit filter:                        26  (0.00305559); expected 8.5 (0.001)
+Passed Fwd filter:                         9  (0.0010577); expected 0.1 (1e-05)
+Initial search space (Z):               8509  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.05
+# Mc/sec: 39109.16
+//
+[ok]
